@@ -1,0 +1,33 @@
+{
+  "name": "email-service",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "prod": "env NODE_ENV=production pm2 start ./bin/www --name='email-service'"
+  },
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "config": "^1.26.2",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.4",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "hbs": "~4.0.1",
+    "mocha": "^4.0.1",
+    "morgan": "~1.8.1",
+    "nodemailer": "^4.4.1",
+    "serve-favicon": "~2.4.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afrianjunior/email-service.git"
+  },
+  "keywords": [
+    "email-service"
+  ],
+  "author": "Afrian Junior",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/afrianjunior/email-service/issues"
+  }
+}
